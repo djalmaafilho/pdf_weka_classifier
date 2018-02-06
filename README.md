@@ -1,29 +1,12 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a simple project in java implementing a classifier based in text descriptors stracteds from pfd files.
+This project use weka library to predict new pdf docs and realise traine.
 
-### What is this repository for? ###
+you must use a initial simple structure to run and classify docs.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1 - create inside res/traineset new folders representing the pdf classes.
+Ex: res/traineset/to_pay
+    res/traineset/payd
+2 - Put at folder res/toclassify, new pdfs to predict class. After predict class the docs will moved to correct folder
+inside res/classifieds
